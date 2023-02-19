@@ -2,6 +2,7 @@
 /**
  * execute - execute a command with its entire path variables.
  * @data: a pointer to the program's data
+ *
  * Return: If sucess returns zero, otherwise, return -1.
  */
 int execute(data_of_program *data)
@@ -11,7 +12,7 @@ int execute(data_of_program *data)
 
 	/* check for program in built ins */
 	retval = builtins_list(data);
-	if (retval != -1)/* if program was found in built ins */
+	if (retval != -1)/* if program was found in builtins */
 		return (retval);
 
 	/* check for program file system */
@@ -35,7 +36,7 @@ int execute(data_of_program *data)
 				perror(data->command_name), exit(EXIT_FAILURE);
 		}
 		else
-		{/* I am the father, I wait and check the exit status of the child */
+		{/* I am the father, I just wait and check the exit status of the child */
 			wait(&status);
 			if (WIFEXITED(status))
 				errno = WEXITSTATUS(status);
