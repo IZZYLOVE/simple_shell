@@ -36,6 +36,7 @@ The first word is considered the command and all remaining words are considered 
 If there exists a shell builtin by that name, the builtin is invoked.
 .RE
 
+
 .RS
 2. If the first character of the command is none of a slash (\fI\\\fR), dot (\fI.\fR), nor builtin, \fBshellby\fR searches each element of the
 \fBPATH\fR environmental variable for a directory containing an executable file by that name.
