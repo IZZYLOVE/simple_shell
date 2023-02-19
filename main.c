@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - initialize the variables of the program
+ * main - initialize the variables of the program and entry point to program
  * @argc: number of values received from the command line
  * @argv: values received from the command line
  * @env: number of values received from the command line
