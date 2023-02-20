@@ -103,7 +103,6 @@ char **tokenize_path(data_of_program *data)
  * @full_path: pointer to the full file name
  * Return: 0 on success, or error code if it exists.
  */
-
 int check_file(char *full_path)
 {
 	struct stat sb;
