@@ -97,6 +97,7 @@ void expand_alias(data_of_program *data)
  * @str_to_add: string to be copied in the buffer
  * Return: nothing, but sets errno.
  */
+
 int buffer_add(char *buffer, char *str_to_add)
 {
 	int length, i;
