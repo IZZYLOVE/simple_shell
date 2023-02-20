@@ -1,6 +1,7 @@
 #ifndef HELPERS_H
 #define HELPERS_H
 
+
 /* Prompts to be printed */
 #define PROMPT_MSG "$" /* Needed to work with signal */
 
