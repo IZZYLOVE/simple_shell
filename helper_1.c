@@ -19,6 +19,7 @@ void free_recurrent_data(data_of_program *data)
 	data->tokens = NULL;
 }
 
+
 /**
  * free_all_data - free all field of the data
  * @data: struct of the program's data
