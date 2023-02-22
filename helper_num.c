@@ -43,6 +43,7 @@ void long_to_string(long number, char *string, int base)
  * @s: pointer to str origen.
  * Return: int of string or 0.
  */
+
 int _atoi(char *s)
 {
 	int sign = 1;
