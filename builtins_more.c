@@ -68,6 +68,7 @@ int builtin_cd(data_of_program *data)
  * @new_dir: path to be set as work directory
  * Return: zero if sucess, or other number if its declared in the arguments
  */
+
 int set_work_directory(data_of_program *data, char *new_dir)
 {
 	char old_dir[128] = {0};
