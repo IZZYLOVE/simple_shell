@@ -25,6 +25,7 @@ void free_recurrent_data(data_of_program *data)
  * @data: struct of the program's data
  * Return: Nothing
  */
+
 void free_all_data(data_of_program *data)
 {
 	if (data->file_descriptor != 0)
