@@ -10,6 +10,8 @@ int _print(char *string)
 {
 	return (write(STDOUT_FILENO, string, str_length(string)));
 }
+
+
 /**
  * _printe - writes a array of chars in the standar error
  * @string: pointer to the array of chars
